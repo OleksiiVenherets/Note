@@ -4,10 +4,9 @@
     {
         int Id { get; set; }
 
-        string SkypeAddress { get; set; }
+        string Adress { get; set; }
 
-        string Telephone { get; set; }
-
-        string Email { get;  set; }
+        string AdressType { get; set; }
     }
+
 }

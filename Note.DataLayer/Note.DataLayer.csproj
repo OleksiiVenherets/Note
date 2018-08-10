@@ -81,6 +81,11 @@
     <Compile Include="Abstract\Entities\INote.cs" />
     <Compile Include="Abstract\Entities\IOnlineAdress.cs" />
     <Compile Include="Abstract\Entities\IUser.cs" />
+    <Compile Include="Abstract\Repositories\IAdressRepository.cs" />
+    <Compile Include="Abstract\Repositories\INoteRepository.cs" />
+    <Compile Include="Abstract\Repositories\IOnlineAdressRepository.cs" />
+    <Compile Include="Abstract\Repositories\IUserRepository.cs" />
+    <Compile Include="Context\NoteContext.cs" />
     <Compile Include="Entities\Adress.cs" />
     <Compile Include="Entities\Note.cs" />
     <Compile Include="Entities\OnlineAdress.cs" />
@@ -92,7 +97,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstract\Repositories\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
