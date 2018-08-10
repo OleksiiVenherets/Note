@@ -33,5 +33,7 @@ namespace Note.DataLayer.Entities
 
         public virtual Adress Adress { get; set; }
 
+        public virtual OnlineAdress OnlineAdress { get; set; }
+
     }
 }

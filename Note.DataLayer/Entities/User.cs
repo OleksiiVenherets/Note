@@ -17,5 +17,8 @@ namespace Note.DataLayer.Entities
         public int AdressId { get; set; }
 
         public virtual Adress Address { get; set; }
+
+        public virtual ICollection<Note> Notes { get; set; }
+
     }
 }
