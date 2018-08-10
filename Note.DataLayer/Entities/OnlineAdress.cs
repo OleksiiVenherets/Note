@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Note.DataLayer.Abstract.Entities;
 
 namespace Note.DataLayer.Entities
@@ -11,12 +7,11 @@ namespace Note.DataLayer.Entities
     {
         public int Id { get; set; }
 
-        public string SkypeAddress { get; set; }
+        public string Adress { get; set; }
 
-        public string Telephone { get; set; }
-
-        public string Email { get; set; }
+        public string AdressType { get; set; }
 
         public virtual ICollection<Note> Notes { get; set; }
+
     }
 }

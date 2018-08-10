@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Note.DataLayer.Abstract.Entities
+﻿namespace Note.DataLayer.Abstract.Entities
 {
     public interface IAdress
     {
@@ -16,8 +10,8 @@ namespace Note.DataLayer.Abstract.Entities
 
         string Address { get; set; }
 
-        Decimal Longitude { get; set; }
+        decimal Longitude { get; set; }
         
-        Decimal Latitude { get; set; }
+        decimal Latitude { get; set; }
     }
 }

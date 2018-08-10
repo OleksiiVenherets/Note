@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Note.DataLayer.Abstract.Entities
+﻿namespace Note.DataLayer.Abstract.Entities
 {
     public interface IUser
     {
